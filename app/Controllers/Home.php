@@ -4,7 +4,7 @@ namespace App\Controllers;
 use App\Models\trackerModel;
 use App\Models\Expensemodel;
 
-
+// this is the main controller not the expense one
 class Home extends BaseController
 {
     public function index(): string
